@@ -1,0 +1,12 @@
+version: '3'
+volumes:
+  godev:
+services:
+  godev:
+    build:
+      context: .
+    ports:
+      - 8081:8081
+    volumes:
+      - ./:/app
+      - godev:/go
