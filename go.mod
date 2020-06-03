@@ -1,3 +1,3 @@
-module github.com/serafdev/go-livemount
+module github.com/serafdev/app
 
 go 1.14
